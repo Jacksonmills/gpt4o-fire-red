@@ -42,7 +42,7 @@ This project uses the GPT-4o model to emulate text-based versions of various gam
 1. Start the emulator:
 
    ```bash
-   pnpm exec tsx index.ts
+   pnpm start
    ```
 
 2. Follow the prompts to interact with the AI and play the text-based game.
@@ -72,3 +72,41 @@ This project is licensed under the MIT License
 - Inspired by classic text-based adventure games.
 - Special thanks to [Jared Palmer](https://twitter.com/jaredpalmer) and [Lars Grammel](https://twitter.com/lgrammel) for the inspiration with the Node.js AI chatbot and sharing the idea.
 - Thanks to [Victor Taelin](https://twitter.com/VictorTaelin) for sharing the system prompt.
+
+## FAQ
+
+### How can I help the AI generate better responses?
+
+If the AI generates too much detail or goes off track, you can guide it by providing specific feedback. Here are some common scenarios and suggestions on how to address them:
+
+#### The AI generates too many details (e.g., too many trees):
+
+You can ask the AI to simplify the scene by specifying that only outlines or fewer details are needed. For example:
+
+- **You**: "You don't need to show that many trees, just do outlines of trees for walls maybe."
+
+#### The AI doesn't provide enough options:
+
+You can prompt the AI to give more actionable options or detailed choices. For example:
+
+- **You**: "Can you provide more options for what I can do next?"
+
+#### The AI gets stuck or repeats itself:
+
+If the AI seems stuck or is repeating the same information, you can redirect it by asking a new question or suggesting a new action. For example:
+
+- **You**: "Move forward and see what is ahead."
+- **You**: "Check my inventory."
+
+#### The AI misunderstands your input:
+
+If the AI misunderstands your command, you can rephrase your request or provide more context. For example:
+
+- **You**: "No, I meant to look at the map, not move forward."
+
+### What should I do if the AI's response is not what I expected?
+
+If the AI's response is not what you expected, you can clarify your request or provide additional instructions to guide it. For example:
+
+- **You**: "That’s not quite what I was looking for. Can you describe the surroundings in more detail?"
+- **You**: "Please focus on the main path and describe any significant landmarks."

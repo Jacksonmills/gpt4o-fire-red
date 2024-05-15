@@ -1,3 +1,4 @@
+![A_game_cartridge_style_logo_for_a_text-based_adven_resized (1)](https://github.com/Jacksonmills/gpt4o-fire-red/assets/19780885/a494a935-605f-4374-8786-c73edcc6a4d4)
 # GPT-4o Game Emulator
 
 This project uses the GPT-4o model to emulate text-based versions of various games. The AI responds to user inputs to simulate a fully playable text-based version of the game, emulating as close to the original as possible from start to end.
@@ -63,7 +64,7 @@ This project uses the GPT-4o model to emulate text-based versions of various gam
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
 ## Acknowledgements
 

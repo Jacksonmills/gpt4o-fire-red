@@ -20,14 +20,14 @@ This project uses the GPT-4o model to emulate text-based versions of various gam
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-   cd YOUR_REPOSITORY
+   git clone https://github.com/Jacksonmills/gpt4o-fire-red.git
+   cd gpt4o-fire-red
    ```
 
 2. Install dependencies:
 
    ```bash
-   pnpm install
+   pnpm i
    ```
 
 3. Create a `.env` file in the root of your project and add your OpenAI API key:
@@ -71,7 +71,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by classic text-based adventure games.
 - Special thanks to [Jared Palmer](https://twitter.com/jaredpalmer) and [Lars Grammel](https://twitter.com/lgrammel) for the inspiration with the Node.js AI chatbot and sharing the idea.
 - Thanks to [Victor Taelin](https://twitter.com/VictorTaelin) for sharing the system prompt.
-
----
-
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your GitHub username and repository name. This README should now include proper acknowledgments and be ready for users who want to try it out or fork it.
